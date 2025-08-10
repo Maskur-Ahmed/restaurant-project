@@ -2,130 +2,142 @@
   margin: 0;
   padding: 0;
 }
-.container{
-    width: 1320px;
-    height: 720px;
-    /* background-color: gray; */
-    margin: auto;
+.container {
+  width: 1320px;
+  height: 720px;
+  /* background-color: gray; */
+  margin: auto;
 }
-span{
-    display: block;
-    text-align: center;
+span {
+    font-weight: bold;
+  display: block;
+  text-align: center;
+  padding: 10px 12px 10px 12px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  background-color: rgba(82, 195, 3, 0.15) rgba(16, 16, 16, 1);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 #hero {
-    height: 615px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),
-        rgba(16, 16, 16, 0) 100%
-        ),
-        url("../assets/hero-bg.png");
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #hero .hero-content{
-        width: 572px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+  height: 615px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#hero .hero-content .subtitle{
-color: rgba(255, 255, 255, 1);
-font-family: "Work Sans", sans-serif;
-font-size: 20px;
-font-weight: 200;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.8;
-
+#hero .hero-content {
+  width: 572px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-
-#hero .hero-content .hero-heading{
-    color: rgba(255, 255, 255, 1);
-    font-family: "Work Sans", sans-serif;
-    /* font-family: Work Sans; */
-    font-size: 30px;
-    font-weight: 600;
-    /* padding: 10px 20px ; */
-    line-height: 35px;
-    letter-spacing: 0%;
-    text-align: center;
-    
+#hero .hero-content .subtitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
 }
 
-#hero .hero-content .bottom_title { 
-color: rgba(255, 255, 255, 1);
-font-family: "Work Sans", sans-serif;
-font-size: 12px;
-/* font-weight: 200; */
-line-height: 15px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-/* padding: 20px; */
+#hero .hero-content .hero-heading {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Work Sans", sans-serif;
+  /* font-family: Work Sans; */
+  font-size: 30px;
+  font-weight: 600;
+  /* padding: 10px 20px ; */
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-#hero .hero-content .btn{
-    background-color: rgba(82, 195, 3, 1);
-    color: rgba(255, 255, 255, 1) ;
-    border-radius: 8px;
-    line-height: 10px;
-    padding: 10px 12px 10px 12px;
-    border: none;
+#hero .hero-content .bottom_title {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  /* font-weight: 200; */
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  /* padding: 20px; */
 }
 
-#cardSection .container .upper_title{
-    text-align: center;
-    margin-top: 30px;
+#hero .hero-content .btn {
+  background-color: rgba(82, 195, 3, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  line-height: 10px;
+  padding: 10px 12px 10px 12px;
+  border: none;
 }
 
-#cardSection .container .upper_title .upT{
- color: rgba(16, 16, 16, 1);
-font-family: "Work Sans", sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center; 
-opacity: 0.6;
-}
-#cardSection .container .upper_title > .upH{
-color: rgba(16, 16, 16, 1);
-font-family: "Work Sans", sans-serif;
-font-size: 18px;
-font-weight: 600;
-line-height:20px;
-letter-spacing: 0%;
-text-align: center;
+#cardSection .container .upper_title {
+  text-align: center;
+  margin-top: 30px;
 }
 
-#cardSection .container .downSection .cards{
+#cardSection .container .upper_title .upT {
+  color: rgba(16, 16, 16, 1);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+#cardSection .container .upper_title > .upH {
+  color: rgba(16, 16, 16, 1);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#cardSection .container .downSection .cards {
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
-    
 }
-#cardSection .container .downSection .cards .card{
+#cardSection .container .downSection .cards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 33%;
     text-align: center;
-    gap:10px;
+    gap: 10px;
+}
+#cardSection .container .downSection .cards .card .cardP{
+    color: rgba(16, 16, 16, 1);
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
 }
 #cardSection .container .downSection .buttonSection {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
 }
